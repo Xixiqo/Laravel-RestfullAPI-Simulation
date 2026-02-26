@@ -12,7 +12,7 @@ class ProductRequest extends FormRequest
     public function authorize(): bool
     {
         // false artinya semua request **tidak otomatis diizinkan**
-        return false;
+        return true;
     }
 
     /**
