@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\API;
 
+use App\Http\Controllers\Controller;
 use App\Models\Product; // Model Product, merepresentasikan tabel products
 use Illuminate\Http\Request; // Untuk menangani HTTP request umum
 use App\Http\Requests\ProductRequest; // Form Request untuk validasi input Product
