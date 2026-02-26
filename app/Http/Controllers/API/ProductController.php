@@ -72,6 +72,7 @@ class ProductController extends Controller
         }
 
         $product->update($data);
+        $product->refresh(); // Refresh model agar data terbaru dari DB
 
         return response()->json([
             'status' => true,
